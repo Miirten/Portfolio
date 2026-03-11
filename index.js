@@ -3,17 +3,17 @@ const projectsDiv = document.getElementById("projects");
 const projectItems = [
     { 
         title: "Arena Fighting Game", 
-        url: "#", 
+        url: "https://github.com/Miirten/Portfolio.git", 
         description: "I have been working on a console game in order to practice C#. It is simple right now, just naming a fighter, entering the arena, and fighting 3 monsters to win, but I plan to expand it as I learn more about C#."
     },
     { 
         title: "Travel Agency Website", 
-        url: "#", 
+        url: "https://github.com/Miirten/Portfolio.git", 
         description: "I will be making a website for a travel agency once I have the prerequisite understanding and skill."},
     { 
         title: "Portfolio", 
-        url: "#", 
-        description: "This portfolio"},
+        url: "https://github.com/Miirten/Portfolio.git",
+        description: "This portfolio"}
     ];
 
 const ul = document.createElement("ul");
