@@ -72,35 +72,12 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-.projectList {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    padding: 15px;
-    border: 1px solid #ddd;
-    border-radius: 15px;
-    margin-bottom: 10px;
-    background-color: rgb(235, 232, 232);
+#socials h2 {
+    text-align: center;
 }
 
-.projectList img {
-    flex-shrink: 0;
-    border-radius: 8px;
-}
-
-.projectList a {
-    font-family: "EB Garamond";
-    font-weight: 500;
-    color: sienna;
-    text-decoration: none;
-    margin-left: 10px;
-}
-
-.projectList p {
-    margin: 0;
-    flex-grow: 1;
-    font-weight: 300;
-
+.contact h2 {
+    text-align: center;
 }
 
 .form {
@@ -129,6 +106,64 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
+#bio h2 {
+    text-align: center;
+}
+
 .bio p{
     font-weight: 300;
+}
+
+#projectsSec h2 {
+    text-align: center;
+}
+
+
+.project-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    background-color: rgb(235, 232, 232);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.project-desc {
+    margin: 0;
+    flex: 1 1 auto;
+    font-weight: 300;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+
+.project-item.active .project-desc{
+    max-height: 200px;
+}
+
+.project-item:hover{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1)
+}
+
+.project-title {
+    cursor: pointer;
+}
+
+.project-item a {
+    font-family: "EB Garamond";
+    font-weight: 450;
+    color: sienna;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.project-item img {
+    flex-shrink: 0;
+    border-radius: 8px;
+    height: 60px;
+    
 }
