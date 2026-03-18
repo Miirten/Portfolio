@@ -1,0 +1,134 @@
+html {
+    scroll-padding-top: 75px;
+}
+
+body {
+    font-family: "Lato", "EB Garamond";
+    font-optical-sizing: auto;
+    font-weight: 250;
+    font-style: normal;
+    margin: 1rem;
+
+}
+
+h1, h2, h3 {
+    font-family: "Lato";
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+    font-weight: 400;
+    font-family: Garamond;
+    height: 75px;
+    color: sienna;
+}
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    max-width: 1200px;
+    max-height: 43px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    background: #ffffffaa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #00000011;
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+    transform: translateY(10px);
+}
+
+nav ul {
+    display: flex;
+    align-items: right;
+    padding: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 0.5rem;
+}
+
+nav ul li a {
+    color: sienna;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(4, 8, 19);
+    text-decoration: underline;
+}
+
+.projectList {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    background-color: rgb(235, 232, 232);
+}
+
+.projectList img {
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+.projectList a {
+    font-family: "EB Garamond";
+    font-weight: 500;
+    color: sienna;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.projectList p {
+    margin: 0;
+    flex-grow: 1;
+    font-weight: 300;
+
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    background-color: rgb(235, 232, 232)
+}
+
+.form label{
+    font-weight: 450;
+    color: sienna;
+    font-family: EB;
+    min-width: 100px;
+}
+
+.form input,
+.form textarea,
+.form select{
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.bio p{
+    font-weight: 300;
+}
