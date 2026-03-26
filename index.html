@@ -47,7 +47,7 @@
 
 
 
-        <br>
+        <hr>
 
         <!---Bio--->
         <section id="bio">
@@ -71,7 +71,7 @@
 
 
 
-        <br>
+        <hr>
 
         <!---Projects--->
         <section id="projectsSec">
@@ -79,48 +79,96 @@
             <div id="projects"></div>
         </section>
 
-        <br>
+        <hr>
+
+
+        <!-- References -->
+        <section id="references-section">
+            <h2>References</h2>
+            <ul id="references-list"></ul>
+
+            <h2>Testimonials</h2>
+            <ul id="testimonials-list"></ul>
+
+            <h3 id="average-rating">Average Rating: 0.0</h3>
+        </section>
+
+        <section id="create-reference">
+            <h2>Create Reference</h2>
+            <form id="reference-form">
+                <div class="form">
+                    <label for="ref-name">Name:</label>
+                    <input id="ref-name" name="name" type="text" required>
+                </div>
+
+                <div class="form">
+                    <label for="ref-company">Company:</label>
+                    <input id="ref-company" name="company" type="text">
+                </div>
+
+                <div class="form">
+                    <label for="ref-email">Email:</label>
+                    <input id="ref-email" name="email" type="email" required>
+                </div>
+
+                <div class="form">
+                    <label for="ref-comment">Testimonial Comment:</label>
+                    <textarea id="ref-comment" name="comment"></textarea>
+                </div>
+
+                <div class="form">
+                    <label for="ref-rating">Rating:</label>
+                    <input id="ref-rating" name="rating" type="number" min="1" max="5">
+                </div>
+
+                <button type="submit">Save</button>
+            </form>
+        </section>
+
+
+        <hr>
 
         <!---Contact Me--->
-        <section id="contact"></section>
-        <div class="contact">
-            <h2>Contact Me</h2>
-            <form method="POST">
-                <div class="form">
-                    <label for="first-name">First Name:</label>
-                    <input id="first-name" type="text">
-                </div>
-                <br>
-                <div class="form">
-                    <label for="last-name">Last Name:</label>
-                    <input id="last-name" type="text">
-                </div>
-                <br>
-                <div class="form">
-                    <label for="email">Email:</label>
-                    <input type="text" id="email" name="name">
-                </div>
-                <br>
-                <div class="form">
-                    <label for="text-area">Comments:</label>
-                    <textarea id="text-area" rows="5" cols="30" placeholder="Enter any comments here"></textarea>
-                </div>
-                <br>
-                <div class="form">
-                    <label for="subject">Subject</label>
-                    <select id="subject">
-                        <option value="business-inquiry" selected>Business Inquiry</option>
-                        <option value="feedback">Feedback</option>
-                        <option value="general-questions">General Questions</option>
-                </div>
-                <br>
-                <div>
-                    <label for="contact-me"></label>
-                    <input id="contact me" type="submit" value="Contact Me">
-                </div>
-
-            </form>
-        </div>
+        <section id="contact">
+            <div class="contact">
+                <h2>Contact Me</h2>
+                <form method="POST">
+                    <div class="form">
+                        <label for="first-name">First Name:</label>
+                        <input id="first-name" type="text">
+                    </div>
+                    <br>
+                    <div class="form">
+                        <label for="last-name">Last Name:</label>
+                        <input id="last-name" type="text">
+                    </div>
+                    <br>
+                    <div class="form">
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" name="email">
+                    </div>
+                    <br>
+                    <div class="form">
+                        <label for="text-area">Comments:</label>
+                        <textarea id="text-area" rows="5" cols="30" placeholder="Enter any comments here"></textarea>
+                    </div>
+                    <br>
+                    <div class="form">
+                        <label for="subject">Subject</label>
+                        <select id="subject">
+                            <option value="business-inquiry" selected>Business Inquiry</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="general-questions">General Questions</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="contact-me"></label>
+                        <input id="contact-me" type="submit" value="Contact Me">
+                    </div>
+                </form>
+            </div>
+        </section>
         <!-- STYLE CONTACT FORM -->
 
 

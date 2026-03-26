@@ -49,7 +49,7 @@ header {
 
 nav ul {
     display: flex;
-    align-items: right;
+    align-items: center;
     padding: 1rem;
     list-style: none;
     margin: 0;
@@ -94,7 +94,7 @@ nav ul li a:hover {
 .form label{
     font-weight: 450;
     color: sienna;
-    font-family: EB;
+    font-family: "EB Garamond";
     min-width: 100px;
 }
 
