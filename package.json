@@ -18,6 +18,9 @@
     "dev": "vite"
   },
   "dependencies": {
+    "@tailwindcss/cli": "^4.2.2",
+    "tailwind": "^4.0.0",
+    "tailwindcss": "^4.2.2",
     "vite": "^8.0.1"
   }
 }
